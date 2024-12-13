@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.navSection{
+    
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #829191;
+    color: black;
+    font-size: large;
+    padding: 0 30px;
+    
+}
+
+.sideBarSection{
+    width:100%;
+    max-width:15%;
+    height:100vh;
+    background-color:#BCD0C7 ;
+}
+
+.sideBarSection ul li{
+    list-style: none;
+    margin-bottom:20px;
+    font-weight: 500;
+    font-size:medium;
+    cursor:pointer;
+}
+.navSection span{
+    cursor:pointer;
+}
+.collectionSection{
+    display:flex;
+}
+.loginSection{
+    
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+}
+.registerSection{
+   
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+}
+.firmSection{
+    
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+}
+.productSection{
+    
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+}
+.authForm{
+    
+    width:100%;
+    max-width:45%;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+    -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+}
+.firmForm{
+   
+    width:100%;
+    max-width:50%;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    
+    gap: 5px;
+    border-radius:10px;
+    -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+}
+.authForm label{
+    width: 100%;
+    max-width:55%;
+    font-weight: 400px;
+}
+.authForm input{
+    width:100%;
+    max-width:55%;
+    height:1.4rem;
+}
+.firmForm label{
+    width: 100%;
+    max-width:75%;
+    font-weight: 400px;
+}
+.firmForm input{
+    width:100%;
+    max-width:75%;
+    height: 25px;
+}
+.categorySection{
+    width:100%;
+    max-width:76%;
+    border:1px solid gray;
+    display:flex;
+}
+.checkboxSection{
+    display:flex;
+    width:100%;
+    max-width:60%;
+    flex-direction:row;
+    
+}
+.dishTypeSection{
+    width:100%;
+    max-width:76%;
+    border:1px solid gray;
+    display:flex;
+}
+.product-table{
+    
+    width:80vw;
+    border-collapse:collapse;
+    
+    margin-top:10px;
+    margin-left:10px;
+    -webkit-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 14px 1px rgba(0,0,0,0.75);
+}
+.product-table td ,.product-table th{
+    padding:10px;
+}
+.product-table th{
+    text-align: left;
+    background-color:sienna;
+}
+
+/* Not found section */
+
+.not-found{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnSubmit button{
+    background-color:rgb(27, 238, 27);
+    margin:15px 0;
+    padding: 10px 25px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+}
